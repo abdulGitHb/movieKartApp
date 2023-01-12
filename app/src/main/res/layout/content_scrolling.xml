@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#202020"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".MovieDetail"
+    tools:showIn="@layout/activity_movie_detail">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tv_movie_name_detail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="70dp"
+        android:textColor="#ffffff"
+        android:text="Movie Name Here"
+        android:textStyle="bold"
+        android:textSize="24sp"/>
+
+    <TextView
+        android:id="@+id/tv_movie_category_detail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_movie_name_detail"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="10dp"
+        android:textColor="#ffffff"
+        android:text="Category"/>
+
+    <TextView
+        android:id="@+id/tv_movie_duration_detail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_movie_name_detail"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="15dp"
+        android:textColor="#ffffff"
+        android:layout_toRightOf="@+id/tv_movie_category_detail"
+        android:text="Duration"/>
+    <TextView
+        android:id="@+id/tv_desc_detail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Description"
+        android:layout_below="@+id/tv_movie_category_detail"
+        android:layout_marginTop="20sp"
+        android:layout_marginStart="10dp"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/tv_movie_desc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:textColor="#ffffff"
+        android:layout_below="@+id/tv_desc_detail"
+        android:text="@string/large_text"/>
+<!--    <VideoView-->
+<!--            android:id="@+id/videoView"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="150dp"-->
+<!--        android:layout_below="@+id/tv_movie_desc"-->
+<!--            />-->
+
+    </RelativeLayout>
+
+</androidx.core.widget.NestedScrollView>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "32957954141",
+    "project_id": "movie-kart-52312",
+    "storage_bucket": "movie-kart-52312.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:32957954141:android:c3f893c15849685fa6b5b4",
+        "android_client_info": {
+          "package_name": "com.myapp.moviekart"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "32957954141-p4j2ilfamntmas0kt9kdnkm80geeb78j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDcJ310K2fQgPGPkrtVRVVEVxbXO__Y38c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "32957954141-p4j2ilfamntmas0kt9kdnkm80geeb78j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

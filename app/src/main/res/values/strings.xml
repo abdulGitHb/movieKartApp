@@ -1,0 +1,74 @@
+<resources>
+    <string name="app_name">Movie Kart</string>
+    <string name="bollywood_movies">Bollywood Movies</string>
+    <string name="hollywood_movies">Hollywood Movies</string>
+    <string name="anime_movies">Anime Movies</string>
+    <string name="recent_added">Recent Added</string>
+    <string name="view_all">VIEW ALL</string>
+    <string name="title_activity_movie_detail">ScrollingActivity</string>
+    <string name="large_text">
+        "Material is the metaphor.\n\n"
+
+
+        "Surfaces and edges of the material provide visual cues that are grounded in reality. The "
+        "flexibility of the material creates new affordances that supercede those in the physical "
+        "world, without breaking the rules of physics.\n"
+        "The fundamentals of light, surface, and movement are key to conveying how objects move, "
+        "seams, divides space, and indicates moving parts.\n\n"
+
+        "Bold, graphic, intentional.\n\n"
+
+        "eye. They create hierarchy, meaning, and focus. Deliberate color choices, edge to edge "
+        "interface that immerse the user in the experience.\n"
+        "An emphasis on user actions makes core functionality immediately apparent and provides "
+        "waypoints for the user.\n\n"
+
+        "Motion provides meaning.\n\n"
+
+        "Motion respects and reinforces the user as the prime mover. Primary user actions are "
+        "inflection points that initiate motion, transforming the whole design.\n"
+        "breaking the continuity of experience even as they transform and reorganize.\n"
+        "Motion is meaningful and appropriate, serving to focus attention and maintain continuity. "
+        "Feedback is subtle yet clear. Transitions are efﬁcient yet coherent.\n\n"
+
+        "3D world.\n\n"
+
+        "The material environment is a 3D space, which means all objects have x, y, and z "
+        "dimensions. The z-axis is perpendicularly aligned to the plane of the display, with the "
+        "position along the z-axis and has a standard 1dp thickness.\n"
+        "On the web, the z-axis is used for layering and not for perspective. The 3D world is "
+        "emulated by manipulating the y-axis.\n\n"
+
+
+        "to the component’s resting state. They ensure that elevation changes are consistent "
+        "the same elevation change relative to their resting elevation.\n"
+        "elevation.\n\n"
+
+        "Avoiding elevation interference.\n\n"
+
+        "Components with responsive elevations may encounter other components as they move between "
+        "whether on a per component basis or using the entire app layout.\n"
+        "For example, a floating action button (FAB) can disappear or move off screen before a "
+        "user picks up a card, or it can move if a snackbar appears.\n"
+        "For example, position the FAB to one side of stream of a cards so the FAB won’t interfere "
+        "when a user tries to pick up one of cards.\n\n"
+    </string>
+    <string name="action_settings">Settings</string>
+    <string-array name="category">
+        <item>"---Select Category---"</item>
+        <item>"Bollywood"</item>
+        <item>"Hollywood"</item>
+        <item>"South-Dub"</item>
+        <item>"Anime Movie(sub)"</item>
+        <item>"Anime Movie(dub)"</item>
+        <item>"Anime Marathon(sub)"</item>
+        <item>"Anime Marathon(dub)"</item>
+    </string-array>
+    <string-array name="movie_type">
+        <item>"---Select type---"</item>
+        <item>"bollywood"</item>
+        <item>"hollywood"</item>
+        <item>"anime"</item>
+    </string-array>
+
+</resources>
